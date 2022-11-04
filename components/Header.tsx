@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 const Header = () => {
@@ -23,10 +24,11 @@ const Header = () => {
             }`}
         >
             <div className="flex items-center space-x-2 md:space-x-10">
-            <img
+            <Image
                 src="https://svgshare.com/i/niz.svg"
-                width={100}
-                height={100}
+                alt="logo"
+                width={120}
+                height={60}
                 className="cursor-pointer object-contain"
                 />
                 <ul className="hidden space-x-4 md:flex">
