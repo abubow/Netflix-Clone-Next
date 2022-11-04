@@ -21,7 +21,7 @@ const Banner = ({netflixOriginals}: Props) => {
                     alt="poster"
                     width={1920}
                     height={1080}
-                    className="z-0 w-full h-[95vh] object-cover z-[-1]"   
+                    className="w-full h-[95vh] object-cover z-[-1]"   
                 />
             </div>
             <h1 className="text-2xl font-bold md:text-4xl lg:text-7xl">
