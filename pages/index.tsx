@@ -37,7 +37,7 @@ const Home = ({
 				showModal && "!h-screen overflow-hidden"
 			}`}>
 			<Head>
-				<title>Home</title>
+				<title>Netflix</title>
 				<link
 					rel="icon"
 					href="/netflix.svg"
